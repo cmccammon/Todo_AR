@@ -8,11 +8,14 @@ class Todo_list
   puts "what task would you like to complete? >"
   tsk = gets.chomp
   nm.task = tsk
-  nm.completed = "no"
+
 
   nm.save
 
   puts "your info is task: #{nm.task} completed: #{nm.completed}"
+
+  puts "#{Todo.select('task').where(completed: "no")}"
+
 
 
 end
