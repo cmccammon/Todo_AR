@@ -6,4 +6,6 @@ get_name = Todo_list.new
 
 get_name.get_task
 
+get_name.todo_list
+
 
