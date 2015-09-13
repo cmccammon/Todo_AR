@@ -6,3 +6,4 @@ class CreateTodoTable < ActiveRecord::Migration
     table.timestamps
     end
   end
+end
