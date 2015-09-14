@@ -20,7 +20,7 @@ class Todo_list
 
   list = Todo.select("id", "task").where(completed: "no")
   list.each do |list|
-  puts "Todo #{list.id} and task #{list.task}"
+  puts "Task ##{list.id}) #{list.task}"
     end
   end
 
